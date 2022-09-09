@@ -143,8 +143,11 @@ h1 {
 h2 {
   font-size: 96px;
   color: $salmon;
-  line-height: 86px;
+  line-height: 96px;
   opacity: 0.6;
+  vertical-align: bottom;
+  display: inline-block;
+  margin-top: 20px;
 }
 h3 {
   text-align: center;
