@@ -51,7 +51,7 @@
       <div class="social">
         <ul>
           <li>
-            <a href="/hello">
+            <a href="https://www.youtube.com/channel/UCbjMfMJ6LX2ENeK0Q2ktwPw">
               <img src="~/assets/logo-youtube.png" alt="Youtube" />
               يوتوب
             </a>
@@ -63,13 +63,13 @@
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/el.janyor">
+            <a href="https://soundcloud.com/el-janyor">
               <img src="~/assets/logo-soundcloud.png" alt="SoundCloud" />
               ساوند كلاود
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/el.janyor">
+            <a href="https://www.eljanyor.art">
               <img src="~/assets/logo-spotify.png" alt="Spotify" />
               سبوتيفاي
             </a>

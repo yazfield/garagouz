@@ -82,7 +82,7 @@ input:-webkit-autofill:focus {
 
 p {
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: light;
   margin: 0;
   color: var(--color-black);
 }
