@@ -6,7 +6,7 @@
       <form method="get" action="/generate/ticket">
         <input
           required
-          pattern="[a-zA-Z\u0621-\u064A]+"
+          pattern="[ a-zA-Z\u0621-\u064A ]+"
           oninvalid="setCustomValidity('يرجى إدخال معلومات صحيحة، وخلينا مالترشاق')"
           type="text"
           name="name"
@@ -14,7 +14,7 @@
         />
         <input
           required
-          pattern="[a-zA-Z\u0621-\u064A]+"
+          pattern="[ a-zA-Z\u0621-\u064A ]+"
           oninvalid="setCustomValidity('يرجى إدخال معلومات صحيحة، وخلينا مالترشاق')"
           type="text"
           name="city"
