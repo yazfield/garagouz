@@ -15,7 +15,7 @@
         </ul>
       </div>
     </section>
-    <section class="item">
+    <section class="item blur">
       <div class="info">
         <h3>الزعيم</h3>
         <img src="~/assets/logo.png" alt="الزعيم" />
@@ -28,7 +28,7 @@
         </ul>
       </div>
     </section>
-    <section class="item">
+    <section class="item blur">
       <div class="info">
         <h3>الرأسمالي</h3>
         <img src="~/assets/logo.png" alt="الرأسمالي" />
@@ -92,5 +92,8 @@ main {
       }
     }
   }
+}
+.blur img {
+  filter: blur(50px);
 }
 </style>

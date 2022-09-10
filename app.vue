@@ -191,8 +191,4 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
-#__nuxt {
-  height: 100%;
-}
 </style>
