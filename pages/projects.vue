@@ -17,25 +17,21 @@
           <li>
             <a href="https://www.youtube.com/channel/UCbjMfMJ6LX2ENeK0Q2ktwPw">
               <img src="~/assets/logo-youtube.png" alt="Youtube" />
-              يوتوب
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/el.janyor">
               <img src="~/assets/logo-instagram.png" alt="Instagram" />
-              إنسطغرام
             </a>
           </li>
           <li>
             <a href="https://soundcloud.com/el-janyor">
               <img src="~/assets/logo-soundcloud.png" alt="SoundCloud" />
-              ساوند كلاود
             </a>
           </li>
           <li>
-            <a href="https://www.eljanyor.art">
+            <a href="/mazal">
               <img src="~/assets/logo-spotify.png" alt="Spotify" />
-              سبوتيفاي
             </a>
           </li>
         </ul>
@@ -60,25 +56,21 @@
               href="https://youtube.com/playlist?list=PLBaYP0sii_CSSNDo-vIArIaLyMTmP83Ni"
             >
               <img src="~/assets/logo-youtube.png" alt="Youtube" />
-              يوتوب
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/el.janyor">
               <img src="~/assets/logo-instagram.png" alt="Instagram" />
-              إنسطغرام
             </a>
           </li>
           <li>
             <a href="https://soundcloud.com/el-janyor/sets/zelij-beats">
               <img src="~/assets/logo-soundcloud.png" alt="SoundCloud" />
-              ساوند كلاود
             </a>
           </li>
           <li>
-            <a href="https://www.eljanyor.art">
+            <a href="/mazal">
               <img src="~/assets/logo-spotify.png" alt="Spotify" />
-              سبوتيفاي
             </a>
           </li>
         </ul>
@@ -87,12 +79,12 @@
   </section>
 </template>
 <style lang="scss" scoped>
-.button {
-  margin-top: 16px;
-}
 h4 {
   font-size: 24px;
   color: var(--color-purple);
+}
+h2 {
+  font-size: 82px;
 }
 hr {
   border: none;
@@ -109,7 +101,7 @@ iframe {
   margin-top: 8px;
   ul {
     margin: 0;
-    width: 100%;
+    width: 70%;
     font-size: 12px;
   }
 }

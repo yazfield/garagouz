@@ -69,7 +69,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.eljanyor.art">
+            <a href="https://www.eljanyor.art/mazal">
               <img src="~/assets/logo-spotify.png" alt="Spotify" />
               سبوتيفاي
             </a>

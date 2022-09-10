@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap");
+
+:root {
+  --color-red: #b22827;
+  --color-green: #1a4d2e;
+  --color-purple: #3e0d2c;
+  --color-purple-light: #955a7f;
+  --color-grey: #dddfcf;
+  --color-salmon: #f5d3ae;
+  --color-salmon-dark: #f4c28d;
+  --color-salmon-light: #f3dec8;
+
+  --color-black: #121413;
+  --color-sepia: #f6f4ea;
+  --color-white: #f7f4f0;
+  --color-concrete: #95a5a6;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: none;
+}
+html {
+  min-height: 100% !important;
+}
+body {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100% !important;
+  margin: 0;
+  top: 0;
+  background-color: var(--color-white);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+}
+
+br {
+  margin-bottom: 8px;
+}
