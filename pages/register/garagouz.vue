@@ -1,12 +1,12 @@
 <template>
   <section>
-    <h2>ڤاراڤوز</h2>
+    <h2>قاراقوز</h2>
     <card>
       <h4>إستمارة التسجيل</h4>
       <form method="get" action="/generate/ticket">
         <input
           required
-          pattern="[ a-zA-Z\u0621-\u064A ]+"
+          pattern="[\u0621-\u064Aa-zA-Z ]+"
           oninvalid="setCustomValidity('يرجى إدخال معلومات صحيحة، وخلينا مالترشاق')"
           type="text"
           name="name"
@@ -14,7 +14,7 @@
         />
         <input
           required
-          pattern="[ a-zA-Z\u0621-\u064A ]+"
+          pattern="[\u0621-\u064Aa-zA-Z ]+"
           oninvalid="setCustomValidity('يرجى إدخال معلومات صحيحة، وخلينا مالترشاق')"
           type="text"
           name="city"

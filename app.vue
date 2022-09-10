@@ -13,6 +13,36 @@
     <main>
       <NuxtPage />
     </main>
+    <footer>
+      <a href="/" class="nav__logo">
+        <img class="nav__logo-img" src="~/assets/logo.png" alt="El Janyor" />
+        <h1>الجنيور</h1>
+      </a>
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/channel/UCbjMfMJ6LX2ENeK0Q2ktwPw">
+              <img src="~/assets/logo-youtube.png" alt="Youtube" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/el.janyor">
+              <img src="~/assets/logo-instagram.png" alt="Instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="https://soundcloud.com/el-janyor">
+              <img src="~/assets/logo-soundcloud.png" alt="SoundCloud" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.eljanyor.art">
+              <img src="~/assets/logo-spotify.png" alt="Spotify" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </div>
 </template>
 <script setup>
@@ -90,7 +120,8 @@ br {
 main {
   font-family: "IBM Plex Sans Arabic", sans-serif;
   background-color: $white;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -168,6 +199,26 @@ section {
   }
   body {
     margin: 1.6cm;
+  }
+}
+
+footer {
+  background-color: var(--color-purple-light);
+  margin-top: 32px;
+  padding-top: 16px;
+  .nav__logo {
+    text-decoration: none;
+    justify-content: center;
+    img {
+      filter: brightness(200%);
+    }
+    h1 {
+      color: var(--color-white);
+    }
+  }
+  .social {
+    padding: 16px;
+    margin: 0;
   }
 }
 </style>
